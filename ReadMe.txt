@@ -18,7 +18,7 @@ SSH_PASS=$(security find-generic-password -a "????" -w)
 
 This script also relies on "sshpass"
 
-1.2. If needed install Homebrew by running the following command '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
+1. If needed install Homebrew by running the following command '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
 2. To install sshpass on macOS, run the following command using Homebrew:'brew install hudochenkov/sshpass/sshpass'
 
 
