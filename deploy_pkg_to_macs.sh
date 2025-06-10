@@ -1,5 +1,30 @@
 #!/bin/bash
 
+#!/bin/bash
+
+# ------------------------------------------------------------------------------
+# Script Name:   pkg_deployer.sh
+# Description:   Copies a specified .pkg file to a list of remote Macs over SSH.
+#                Each host is verified and the package is copied to a specified
+#                directory using rsync with sshpass for password-based auth.
+#
+# Usage:         Configure the variables below:
+#                - PKG_PATH: path to the .pkg file
+#                - HOSTS_FILE: path to a file containing target hostnames (one per line)
+#                - REMOTE_PKG_DIR: destination directory on remote hosts
+#                - SSH_USER: SSH username
+#                - SSH_PASS: pulled from macOS Keychain
+#
+# Dependencies:  - sshpass
+#                - rsync
+#                - macOS security CLI tool for keychain access
+#
+# Output:        Logs summary of successful, failed, and skipped host transfers.
+#                Package is copied but **not** installed or executed.
+#
+# Author:        Brian Irish
+# ------------------------------------------------------------------------------
+
 # --------------------------------
 # CONFIGURATION
 # --------------------------------
