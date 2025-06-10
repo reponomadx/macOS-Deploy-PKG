@@ -1,5 +1,10 @@
 # 📦 Remote macOS PKG Deployment Tool
 
+![Platform](https://img.shields.io/badge/platform-macOS-blue)
+![Shell](https://img.shields.io/badge/shell-bash-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-yellow)
+![Status](https://img.shields.io/badge/stability-stable-success)
+
 This Bash-based tool automates the secure remote deployment of `.pkg` installer files across multiple macOS hosts via SSH. It is ideal for environments where centralized software pushes are required — such as deploying internal tools, agents, or configuration packages across lab or fleet machines.
 
 ---
