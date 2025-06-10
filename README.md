@@ -122,6 +122,6 @@ At the end of each run, a detailed report is printed:
 ## 📄 License
 
 MIT License
-© Brian Irish
+© 2025 Brian Irish
 
 ---
